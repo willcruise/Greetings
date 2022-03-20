@@ -6,7 +6,7 @@ int main() {
 	char name[100];
 	string name2;
 	string greeting;
-	cout << "Enter you name: ";
+	cout << "What is your name?\n";
 	fgets(name, 100, stdin);
 	name2 = name;
 	name2[strlen(name) - 1] = '\0';
